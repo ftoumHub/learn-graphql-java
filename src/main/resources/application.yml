@@ -1,6 +1,9 @@
 spring:
   application:
     name: learn-graphql-java
+  output:
+    ansi:
+      enabled: ALWAYS
 
 server:
   http2:
