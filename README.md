@@ -1,31 +1,7 @@
-###1 - Introduction, Dependencies
+https://www.youtube.com/watch?v=nju6jFW8CVw&list=PLiwhu8iLxKwL1TU0RMM6z7TtkyW-3-5Wi
 
-###2 - Creating your first Schema and Query
+1 - Introduction, Dependencies
 
-Ajouter la dépendance vers playground-spring-boot-starter.
+2 - Creating your first Schema and Query
 
-Le "playground" graphql est ensuite disponible à l'url: http://localhost:8080/playground
-
-Les schémas créé sont visibles en cliquant sur "SCHEMA".
-
-On peut tester notre resolver avec la requête suivante:
-
-{
-  bankAccount(id: "dec054fe-3871-47c2-8188-9165f58a6095") {
-    id
-    name
-    currency
-  }
-}
-
-On obtient la réponse suivante :
-
-{
-  "data": {
-    "bankAccount": {
-      "id": "dec054fe-3871-47c2-8188-9165f58a6095",
-      "name": "Georges",
-      "currency": "USD"
-    }
-  }
-}
+3 - Schema Design Best Practices
